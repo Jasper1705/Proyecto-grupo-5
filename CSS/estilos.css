@@ -10,6 +10,20 @@ body {
     background-color: antiquewhite;
 }
 
+
+/*-----scroll bar---*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgb(255, 138, 4);
+}
+
+/*-----Navbar Desktop---*/
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -85,7 +99,7 @@ body {
     }
 }
 
-/*NAV*/
+/*-----Navbar Mobile---*/
 
 .header a {
     text-decoration: none;
@@ -142,6 +156,8 @@ header .overlay a {
         right: 35px;
     }
 }
+
+/*-----Body---*/
 
 button {
     margin-left: 20px;
@@ -260,7 +276,7 @@ button:hover {
 }
 
 .reservación {
-    background-image: url(./Images/pexels-roman-odintsov-4958528.jpg);
+    background-image: url(../Images/pexels-roman-odintsov-4958528.jpg);
     padding: 56px 44px;
     background-position: center;
     background-repeat: no-repeat;
