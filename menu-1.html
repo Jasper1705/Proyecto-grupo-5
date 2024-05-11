@@ -1,189 +1,245 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<link rel="stylesheet" href="styles.css" 
-> 
-<H1>MENU NOPAL DE LOS PANCHOS DE MONTERREY</H1>
-               <h2>Platos Fuertes</h2>
-    <section class="section">
-        <div class="container">
-          <div class="grid">
-            <article class="card">
-              <img class="card__image" src="ruta_de_la_imagen/carnitas.jpg" />
-              <div class="card__data">
-                <div class="card__info">
-                  <h2>Tacos de carnitas</h2>
-                  <p>Tortillas de maíz rellenas con suculenta carne de cerdo cocida lentamente con ajo, cebolla y especias tradicionales. Acompañados de cebolla, cilantro fresco y tu elección de salsa verde, salsa roja o guacamole.</p>
-                </div>
-                <h3 class="card__price">$5.50</h3>
-                <button class="card__add">+</button>
-              </div>
-            </article>
-            <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/enchiladas suizas.jpg" />
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nopal de Los Panchos de Monterrey | Restaurante Mexicano</title>
+    <link rel="icon" type="image/png" href="./Images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  
+  <header class="header">
+
+    <div class="logo">
+        <a href="index.html"><img src="./Images/Logo Restaurante.png" width="100px" alt="Nopal de Los Panchos de Monterrey"></a>
+    </div>
+  
+    <nav>
+        <ul class="nav-enlaces">
+            <li><a href="Quienes somos.html">Quienes somos</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="menu-1.html">Menú</a></li>
+            <li><a href="Contactanos.html">Contáctanos</a></li>
+            <li><a href="Ubicación.html">Ubicación</a></li>
+        </ul>
+    </nav>
+  
+    <div class="redes-sociales">
+        <a href=""><img src="./Images/Facebook-white.svg" alt="Facebook"></a>
+        <a href=""><img src="./Images/instagram-white.svg" alt="Instagram"></a>
+        <a href=""><img src="./Images/tiktok-white.svg" alt="TikTok"></a>
+    </div>
+  
+    <a onclick="openNav()" class="menu" href="#"><button>Menú</button></a>
+  
+    <div class="overlay" id="menu-mobile">
+        <a onclick="closeNav()" class="cerrar" href="">X</a>
+        <div class="overlay-contenido">
+            <a href="index.html">Inicio</a>
+            <a href="Quienes somos.html">Quienes somos</a>
+            <a href="">Servicios</a>
+            <a href="menu-1.html">Menú</a>
+            <a href="Contactanos.html">Contáctanos</a>
+            <a href="Ubicación.html">Ubicación</a>
+            <a href=""><img src="./Images/Facebook-white.svg" alt="Facebook"></a>
+            <a href=""><img src="./Images/instagram-white.svg" alt="Instagram"></a>
+            <a href=""><img src="./Images/tiktok-white.svg" alt="TikTok"></a>
+        </div>
+    </div>
+  
+  </header>
+
+  <br>
+  
+  <H1>MENU NOPAL DE LOS PANCHOS DE MONTERREY</H1>
+                 <h2>Platos Fuertes</h2>
+      <section class="section">
+          <div class="container">
+            <div class="grid">
+              <article class="card">
+                <img class="card__image" src="ruta_de_la_imagen/carnitas.jpg" />
                 <div class="card__data">
                   <div class="card__info">
-                    <h2>Enchiladas Suizas</h2>
-                    <p>Suaves tortillas de maíz rellenas de pollo deshebrado y bañadas en una exquisita salsa verde a base de tomatillos, chiles verdes y crema, que le otorga su característico color verde y un sabor fresco y ligeramente picante. </p>
+                    <h2>Tacos de carnitas</h2>
+                    <p>Tortillas de maíz rellenas con suculenta carne de cerdo cocida lentamente con ajo, cebolla y especias tradicionales. Acompañados de cebolla, cilantro fresco y tu elección de salsa verde, salsa roja o guacamole.</p>
                   </div>
                   <h3 class="card__price">$5.50</h3>
                   <button class="card__add">+</button>
                 </div>
               </article>
               <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/guacamole.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Guacamole</h2>
-                    <p>Acompañamos nuestro guacamole fresco con una selección de totopos de maíz crujientes y tortillas recién hechas, ideales para disfrutar cada bocado. El guacamole se sirve en un plato decorado con rodajas de limón y hojas de cilantro para una presentación colorida y apetitosa.</p>
-                  </div>
-                  <h3 class="card__price">$4.50</h3>
-                  <button class="card__add">+</button>
-                </div>
-              </article>
-              <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/pozole.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Pozole</h2>
-                    <p>Plato emblemático de México con base de maíz hominy, carne de cerdo o pollo, sazonado con especias y chiles. Acompañado de cebolla, rábanos, limón y orégano. Un clásico reconfortante y lleno de sabor.</p>
-                  </div>
-                  <h3 class="card__price">$5.75</h3>
-                  <button class="card__add">+</button>
-                </div>
-              </article>
-              <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/tacos al pastor.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Tacos al pastor</h2>
-                    <p>Tortillas de maíz rellenas con carne de cerdo marinada en especias tradicionales, acompañadas de cebolla, cilantro, y piña. Un clásico mexicano irresistible.</p>
-                  </div>
-                  <h3 class="card__price">$5.50</h3>
-                  <button class="card__add">+</button>
-                </div>
-              </article>
-              <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/quesadillas.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Quesadillas Mexicanas</h2>
-                    <p>Tortillas rellenas de queso Oaxaca y tu elección de pollo, carne, champiñones o chorizo. Acompañadas de guacamole, crema y salsas. Una delicia tradicional y versátil.</p>
-                  </div>
-                  <h3 class="card__price">$5.50</h3>
-                  <button class="card__add">+</button> </div>
-                </article>
-                <article class="card">
-                  <img class="card__image" src="ruta_de_la_imagen/Queso fundido al estilo mexicano con chorizo.jpg" />
+                  <img class="card__image" src="ruta_de_la_imagen/enchiladas suizas.jpg" />
                   <div class="card__data">
                     <div class="card__info">
-                      <h2>Queso fundido al estilo mexicano con chorizo</h2>
-                      <p>Queso derretido con chorizo sazonado, servido caliente y acompañado de tortillas de maíz.</p>
+                      <h2>Enchiladas Suizas</h2>
+                      <p>Suaves tortillas de maíz rellenas de pollo deshebrado y bañadas en una exquisita salsa verde a base de tomatillos, chiles verdes y crema, que le otorga su característico color verde y un sabor fresco y ligeramente picante. </p>
+                    </div>
+                    <h3 class="card__price">$5.50</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/guacamole.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Guacamole</h2>
+                      <p>Acompañamos nuestro guacamole fresco con una selección de totopos de maíz crujientes y tortillas recién hechas, ideales para disfrutar cada bocado. El guacamole se sirve en un plato decorado con rodajas de limón y hojas de cilantro para una presentación colorida y apetitosa.</p>
+                    </div>
+                    <h3 class="card__price">$4.50</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/pozole.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Pozole</h2>
+                      <p>Plato emblemático de México con base de maíz hominy, carne de cerdo o pollo, sazonado con especias y chiles. Acompañado de cebolla, rábanos, limón y orégano. Un clásico reconfortante y lleno de sabor.</p>
+                    </div>
+                    <h3 class="card__price">$5.75</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/tacos al pastor.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Tacos al pastor</h2>
+                      <p>Tortillas de maíz rellenas con carne de cerdo marinada en especias tradicionales, acompañadas de cebolla, cilantro, y piña. Un clásico mexicano irresistible.</p>
+                    </div>
+                    <h3 class="card__price">$5.50</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/quesadillas.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Quesadillas Mexicanas</h2>
+                      <p>Tortillas rellenas de queso Oaxaca y tu elección de pollo, carne, champiñones o chorizo. Acompañadas de guacamole, crema y salsas. Una delicia tradicional y versátil.</p>
                     </div>
                     <h3 class="card__price">$5.50</h3>
                     <button class="card__add">+</button> </div>
-                </article>
-                <article class="card">
-                  <img class="card__image" src="ruta_de_la_imagen/Nachos con queso fundido.jpg" />
-                  <div class="card__data">
-                    <div class="card__info">
-                      <h2>Nachos con queso fundido</h2>
-                      <p>Chips de maíz cubiertos de queso cheddar derretido y rodajas de jalapeños picantes, perfectos para compartir.</p>
-                    </div>
-                    <h3 class="card__price">$4.50</h3>
-                    <button class="card__add">+</button> </div>
-                  
-
-            <h2>Postres</h2>
-              </article>
-              <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/tres leches.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Tres leches</h2>
-                    <p>Esponjoso pastel empapado en tres leches: evaporada, condensada y crema de leche. Una delicia cremosa y refrescante.</p>
-                  </div>
-                  <h3 class="card__price">$3.50</h3>
-                  <button class="card__add">+</button>
-                </div>
-              </article>
-              <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/flan.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Flan</h2>
-                    <p>Postre tradicional, el flan es una delicada crema de huevo y leche, con un toque de vainilla, cocida al baño María hasta obtener una textura suave y cremosa. </p>
-                  </div>
-                  <h3 class="card__price">$2.50</h3>
-                  <button class="card__add">+</button>
-                </div>
-              </article>
-        <div>
-              <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/churros.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Churros españoles</h2>
-                    <p>Deliciosos churros crujientes, acompañados de azúcar o canela y una taza de chocolate caliente. Un clásico español irresistible.</p>
-                  </div>
-                  <h3 class="card__price">$2.50</h3>
-                  <button class="card__add">+</button>
-                </div>
-              </article>
-          </div>
-          <h2>Bebidas</h2>
-          <article class="card">
-            <img class="card__image" src="ruta_de_la_imagen/Margarita Clásica.jpg" />
-            <div class="card__data">
-              <div class="card__info">
-                <h2>Margarita Clasica</h2>
-                <p>Una refrescante mezcla de tequila, triple sec y jugo de limón, servida en una copa escarchada con sal.</p>
-              </div>
-              <h3 class="card__price">$3.50</h3>
-              <button class="card__add">+</button>
-          
-          </article>
-          <article class="card">
-            <img class="card__image" src="ruta_de_la_imagen/Michelada.jpg" />
-            <div class="card__data">
-              <div class="card__info">
-                <h2>Michelada</h2>
-                <p>Cerveza mexicana mezclada con jugo de limón, salsa picante, salsa inglesa y sal en el borde del vaso, acompañada de hielo y rodajas de limón.</p>
-              </div>
-              <h3 class="card__price">$3.50</h3>
-              <button class="card__add">+</button>
-            </article>
-            <article class="card">
-                <img class="card__image" src="ruta_de_la_imagen/horchata.jpg" />
-                <div class="card__data">
-                  <div class="card__info">
-                    <h2>Horchata</h2>
-                    <p>Una bebida refrescante y dulce hecha a base de arroz, leche, canela y azúcar, servida con hielo y canela espolvoreada encima.</p>
-                  </div>
-                  <h3 class="card__price">$3.50</h3>
-                  <button class="card__add">+</button>
-                </article>
-                <article class="card">
-                    <img class="card__image" src="ruta_de_la_imagen/Agua de Jamaica.jpg" />
+                  </article>
+                  <article class="card">
+                    <img class="card__image" src="ruta_de_la_imagen/Queso fundido al estilo mexicano con chorizo.jpg" />
                     <div class="card__data">
                       <div class="card__info">
-                        <h2>Agua de Jamaica</h2>
-                        <p> Infusión fría de flores de hibisco (jamaica) endulzada con azúcar y servida con hielo.</p>
+                        <h2>Queso fundido al estilo mexicano con chorizo</h2>
+                        <p>Queso derretido con chorizo sazonado, servido caliente y acompañado de tortillas de maíz.</p>
                       </div>
-                      <h3 class="card__price">$3.50</h3>
-                      <button class="card__add">+</button>
-                    </article>
-                    <article class="card">
-                        <img class="card__image" src="ruta_de_la_imagen/Piña Colada.jpg" />
-                        <div class="card__data">
-                          <div class="card__info">
-                            <h2>Piña Colada</h2>
-                            <p> Bebida tropical con ron, jugo de piña, crema de coco y hielo, servida con una rodaja de piña y una sombrilla.</p>
-                          </div>
-                          <h3 class="card__price">$3.50</h3>
-                          <button class="card__add">+</button>
-                        </article>
-        </div>
-        </div>
-      </section>
-</head>
+                      <h3 class="card__price">$5.50</h3>
+                      <button class="card__add">+</button> </div>
+                  </article>
+                  <article class="card">
+                    <img class="card__image" src="ruta_de_la_imagen/Nachos con queso fundido.jpg" />
+                    <div class="card__data">
+                      <div class="card__info">
+                        <h2>Nachos con queso fundido</h2>
+                        <p>Chips de maíz cubiertos de queso cheddar derretido y rodajas de jalapeños picantes, perfectos para compartir.</p>
+                      </div>
+                      <h3 class="card__price">$4.50</h3>
+                      <button class="card__add">+</button> </div>
+                    
+  
+              <h2>Postres</h2>
+                </article>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/tres leches.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Tres leches</h2>
+                      <p>Esponjoso pastel empapado en tres leches: evaporada, condensada y crema de leche. Una delicia cremosa y refrescante.</p>
+                    </div>
+                    <h3 class="card__price">$3.50</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/flan.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Flan</h2>
+                      <p>Postre tradicional, el flan es una delicada crema de huevo y leche, con un toque de vainilla, cocida al baño María hasta obtener una textura suave y cremosa. </p>
+                    </div>
+                    <h3 class="card__price">$2.50</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+          <div>
+                <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/churros.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Churros españoles</h2>
+                      <p>Deliciosos churros crujientes, acompañados de azúcar o canela y una taza de chocolate caliente. Un clásico español irresistible.</p>
+                    </div>
+                    <h3 class="card__price">$2.50</h3>
+                    <button class="card__add">+</button>
+                  </div>
+                </article>
+            </div>
+            <h2>Bebidas</h2>
+            <article class="card">
+              <img class="card__image" src="ruta_de_la_imagen/Margarita Clásica.jpg" />
+              <div class="card__data">
+                <div class="card__info">
+                  <h2>Margarita Clasica</h2>
+                  <p>Una refrescante mezcla de tequila, triple sec y jugo de limón, servida en una copa escarchada con sal.</p>
+                </div>
+                <h3 class="card__price">$3.50</h3>
+                <button class="card__add">+</button>
+            
+            </article>
+            <article class="card">
+              <img class="card__image" src="ruta_de_la_imagen/Michelada.jpg" />
+              <div class="card__data">
+                <div class="card__info">
+                  <h2>Michelada</h2>
+                  <p>Cerveza mexicana mezclada con jugo de limón, salsa picante, salsa inglesa y sal en el borde del vaso, acompañada de hielo y rodajas de limón.</p>
+                </div>
+                <h3 class="card__price">$3.50</h3>
+                <button class="card__add">+</button>
+              </article>
+              <article class="card">
+                  <img class="card__image" src="ruta_de_la_imagen/horchata.jpg" />
+                  <div class="card__data">
+                    <div class="card__info">
+                      <h2>Horchata</h2>
+                      <p>Una bebida refrescante y dulce hecha a base de arroz, leche, canela y azúcar, servida con hielo y canela espolvoreada encima.</p>
+                    </div>
+                    <h3 class="card__price">$3.50</h3>
+                    <button class="card__add">+</button>
+                  </article>
+                  <article class="card">
+                      <img class="card__image" src="ruta_de_la_imagen/Agua de Jamaica.jpg" />
+                      <div class="card__data">
+                        <div class="card__info">
+                          <h2>Agua de Jamaica</h2>
+                          <p> Infusión fría de flores de hibisco (jamaica) endulzada con azúcar y servida con hielo.</p>
+                        </div>
+                        <h3 class="card__price">$3.50</h3>
+                        <button class="card__add">+</button>
+                      </article>
+                      <article class="card">
+                          <img class="card__image" src="ruta_de_la_imagen/Piña Colada.jpg" />
+                          <div class="card__data">
+                            <div class="card__info">
+                              <h2>Piña Colada</h2>
+                              <p> Bebida tropical con ron, jugo de piña, crema de coco y hielo, servida con una rodaja de piña y una sombrilla.</p>
+                            </div>
+                            <h3 class="card__price">$3.50</h3>
+                            <button class="card__add">+</button>
+                          </article>
+          </div>
+          </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./JavaScript/script.js"></script>
+
+</body>
+</html>
