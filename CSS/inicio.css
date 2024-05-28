@@ -142,6 +142,10 @@ button:hover {
     .información img {
         width: 100%;
     }
+
+    .quienes-somos img {
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -187,6 +191,15 @@ button:hover {
     .valores {
         flex-direction: column;
     }
+
+    .valores img {
+        width: 50% !important;
+        margin-bottom: 40px;
+    }
+
+    .valores a {
+        padding-left: 90px;
+    }
 }
 
 
@@ -201,9 +214,59 @@ button:hover {
     text-align: center;
 }
 
+
+/*-----Seccion Servicios---*/
+
+.valores-c{
+    display: flex;
+    flex-direction: row;
+    margin: 32px 40px;
+    justify-content: space-around;
+}
+
 .card-servicio {
-    justify-content: center;
-    align-items: center;
-    padding: 100px 20px;
-    max-width: 500px;
+    padding: 20px;
+    border-radius: 24px;
+    border: solid 2px chocolate;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    width: 25%;
+}
+
+.card-servicio button {
+    margin-left: 0;
+}
+
+
+.card-servicio p {
+    padding: 0;
+}
+
+.card-servicio img {
+    width: 15%;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .valores-c {
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+
+    }
+
+    .card-servicio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .card-servicio img {
+        width: 25%;
+    }
+
+    .card-servicio button {
+        margin-left: 0;
+
+    }
+
 }
