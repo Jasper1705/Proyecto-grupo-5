@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos | Nopal de Los Panchos de Monterrey</title>
+    <link rel="icon" type="image/png" href="./Images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/inicio.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <a href="index.html"><img src="./Images/Logo Restaurante.png" width="100px" alt="Nopal de Los Panchos de Monterrey"></a>
+        </div>
+
+        <nav>
+            <ul class="nav-enlaces">
+                <li><a href="menu-1.html">Menú</a></li>
+                <li><a href="Quienes somos.html">Quienes somos</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>               
+                <li><a href="Contactanos.html">Contáctanos</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="redes-sociales">
+            <a href="https://es-la.facebook.com/"><img src="./Images/Facebook-white.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="./Images/instagram-white.svg" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/es/"><img src="./Images/tiktok-white.svg" alt="TikTok"></a>
+        </div>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menú</button></a>
+
+        <div class="overlay" id="menu-mobile">
+            <a onclick="closeNav()" class="cerrar" href="">X</a>
+            <div class="overlay-contenido">
+                <a href="index.html">Inicio</a>
+                <a href="menu-1.html">Menú</a>
+                <a href="Quienes somos.html">Quienes somos</a>
+                <a href="Servicios.html">Servicios</a>             
+                <a href="Contactanos.html">Contáctanos</a>
+
+                <a href="https://es-la.facebook.com/"><img src="./Images/Facebook-white.svg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="./Images/instagram-white.svg" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/es/"><img src="./Images/tiktok-white.svg" alt="TikTok"></a>
+            </div>
+        </div>
+
+    </header>
+
+    <Section class="Intro">
+
+        <h5>Nopal de Los Panchos de Monterrey</h5>
+        <h1 style="color: chocolate; font-weight: 500;">Sobre Nosotros</h1>
+        <p style="text-align: justify;">El primer restaurante que te brinda la autentica experiencia mexicana.</p>
+
+        <img src="./Images/Quienes Somos/iStock-895843866.jpg" alt="Restaurante">
+
+        <div class="valores">
+            <p><b>Frescura y Tradición:</b> Nopal de Los Panchos de Monterrey se enorgullece de ofrecer platillos elaborados con ingredientes frescos y de la más alta calidad, provenientes directamente de México. Cada receta se prepara con técnicas tradicionales, transmitidas de generación en generación, para garantizar un sabor auténtico y hogareño.</p>
+            <p><b>Ambiente Acogedor:</b> El restaurante Nopal de Los Panchos de Monterrey cuenta con un ambiente cálido y acogedor, perfecto para disfrutar de una agradable comida en familia o con amigos. La decoración tradicional mexicana crea un espacio familiar y acogedor, donde los comensales se sentirán como en casa.</p>
+            <p><b>Servicio Atento y Personalizado:</b> El equipo de Nopal de Los Panchos de Monterrey está comprometido a brindar un servicio atento y personalizado a cada uno de sus clientes. Nuestro personal está capacitado para recomendar los mejores platillos de acuerdo a sus preferencias y para atender a todas sus necesidades con amabilidad y eficiencia.</p>
+        </div>
+
+    </Section>
+
+    <section class="reservación" id="reservation">
+        <div class="reserva">
+            <h2>Haz una reservación</h2>
+            <br>
+            <p>¿Una cena especial, fiestas o celebraciones? ¡Celebralas con nosotros!</p>
+            <br>
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+            </div>
+            <br>
+            <div>
+                <input type="email" class="form-control" placeholder="Número de contacto" id="inputEmail4">
+            </div>
+            <br>
+            <select id="inputState" class="form-select">
+                <option selected>Fecha a reservar</option>
+                <option>10/05/24</option>
+                <option>11/05/24</option>
+                <option>12/05/24</option>
+              </select>
+            <br>
+            <a href="#"><button style="background-color: chocolate; border: 0;">Reservar</button></a>
+        </div>
+    </section>
+
+
+    <Section class="información">
+        <div>
+            <img src="./Images/Quienes Somos/iStock-479789848.jpg" alt="Imagen de restaurante">
+          </div>
+          <div class="texto">
+            <h5>Nuestra Historia</h5>
+            <h2>Desde México Hasta El Salvador</h2>
+
+            <p>Nopal de Los Panchos de Monterrey nació en el corazón de San Salvador, El Salvador, hace más de 30 años. Fundado en los años 90 por la familia Sánchez, originaria de Jalisco, el restaurante comenzó como un pequeño puesto callejero donde se servían recetas tradicionales mexicanas elaboradas con ingredientes frescos y de la más alta calidad.</p>
+
+            <p>El sabor auténtico y hogareño de la comida de la familia Sánchez rápidamente conquistó el paladar de los habitantes de San Salvador, y el pequeño puesto callejero se convirtió en un popular restaurante local, gracias a la calidad de sus platillos y el excelente servicio enfocado en la calidez hogareña. La receta secreta de la salsa de chiles y el cuidado en la selección de los ingredientes se convirtio en la marca distintiva del restaurante, atrayendo a clientes de todas partes de la ciudad y más allá. Con el paso del tiempo, abriendo nuevas sucursales en diferentes ciudades de El Salvador.</p>
+
+            <p>Nopal de los Panchos de Monterrey no solo es un lugar para disfrutar de deliciosos platillos mexicanos, sino también un símbolo de la perseverancia y el compromiso de una familia con su pasión por la cocina.!</p>
+          </div>
+    </Section>
+
+    <Section class="información">
+
+        <div class="texto">
+            <h2>Nuestras Recetas</h2>
+            <br>
+            <p>Nopal de Los Panchos de Monterrey: Un Sabor Auténtico Mexicano</p>
+            <br>
+            <p>Nopal de Los Panchos de Monterrey es más que un restaurante, es una experiencia culinaria que te permitirá descubrir la verdadera esencia de la comida mexicana. Ven a visitarnos y déjate conquistar por nuestros deliciosos platillos y nuestro cálido ambiente.</p>
+            <br>
+            <a href="menu-1.html"><button style="background-color: chocolate; border: 0; margin-left: 0;">Ve nuestro menú</button></a>
+          </div>
+
+        <div>
+            <img src="./Images/Quienes Somos/pexels-roman-odintsov-4958641.jpg" alt="Imagen de restaurante" style="margin-top: 20px;">
+        </div>
+          
+    </Section>
+
+    <footer style="text-align: center;">
+
+        <div class="contenedor">
+
+
+            <div class="footer-row">
+
+                <div class="footer-links" style="display: flex; flex-direction: column;">
+
+                    <img src="./Images/Footer logo.jpg" alt="Nopal de Los Panchos de Monterrey" width="100px">
+                    <br>
+                    <p>Es más que un restaurante, es una historia familiar que se refleja en cada uno de sus platillos. Ven a visitarnos y descubre la verdadera esencia de la comida mexicana.</p>
+
+                </div>
+
+                <br>
+
+                <div class="footer-links">
+
+                    <h4 style="text-align: left; color: chocolate; font-size: 20px; font-weight: 500;">Restaurante</h4>
+                    <br>
+                    <p><a href="menu-1.html">Menú</a></p>
+                    <p><a href="Quienes somos.html">Quienes Somos</a></p>
+                    <p><a href="Servicios.html">Servicios</a></p>
+                    <p><a href="Contactanos.html">Contactanos</a></p>
+
+
+                </div>
+
+                <div class="footer-links">
+
+                    <h4 style="text-align: left; color: chocolate; font-size: 20px; font-weight: 500;">Restaurante</h4>
+                    <br>
+                    <p><a href="#reservation">Reservaciones</a></p>
+                    <p><a href="Servicios.html">Eventos</a></p>
+                    <p><a href="menu-1.html">Promociones</a></p>
+                    <p><a href="Contactanos.html">Ubicaión</a></p>
+
+
+                </div>
+
+                <br>
+
+                <div class="footer-links">
+                    
+                    <div class="footer-redes">
+                        <a href="https://es-la.facebook.com/"><img src="./Images/Facebook-white.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/"><img src="./Images/instagram-white.svg" alt="Instagram"></a>
+                        <a href="https://www.tiktok.com/es/"><img src="./Images/tiktok-white.svg" alt="TikTok"></a>
+                        <a href="mailto:ejemplo@gmail.com"><img src="./Images/gmail blanco.svg" alt="Correo"></a>
+                    </div>
+
+                    <br>
+
+                    <div class="newsletter">
+
+                        <p style="font-size: 20px; color: chocolate; font-weight: 500;">Suscribete a nuestro Newsletter</p>
+                        <p>Mantente informado de nuestros eventos y promociones especiales</p>
+                        <br>
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="correo electronico" aria-describedby="emailHelp">
+                            <br>
+                            <a href="#"><button style="background-color: chocolate; border: 0;">Suscribirse</button></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <span style="color: rgb(156, 156, 156); font-size: 12px;">©️ Nopal de Los Panchos de Monterrey 2024 | Proyecto Grupal de JA Americans Mujer Digital</span>
+            
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>
